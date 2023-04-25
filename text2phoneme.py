@@ -90,6 +90,6 @@ def text2phoneme(text):
     return phonemes
 
 if __name__ == '__main__':
-    text = "ゲグァンはこのところ他者を見下すし、ちょっと脅かすか？形態素解析"
+    text = "ゲグァンはこのところ他者を見下すし、ちょっと脅かすか？"
     phonemes = text2phoneme(text)
     print('sil '+phonemes+' sil')
